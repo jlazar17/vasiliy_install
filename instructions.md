@@ -75,7 +75,14 @@ meson --prefix=$PREFIX build
 ninja -C build
 ninja -C build install
 ./configure --prefix=$PREFIX --with-photospline-config=$PREFIX/bin/photospline-config --python-module-dir=$PREFIX/lib
+```
+
+## Finally, we install `LeptonWeighter`
+
+```bash
+cd $SRCDIR/LeptonWeighter
 make
 make install
 make python
 make python-install
+```
