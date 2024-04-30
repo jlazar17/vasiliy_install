@@ -1,0 +1,16 @@
+    3  sudo apt install git
+    4  apt-get update
+    5  sudo apt-get update
+    6  sudo apt install git
+   19  sudo apt install boost
+   20  sudo apt install hdf5
+   21  sudo apt-get install libhdf5-serial-dev
+   22  sudo apt-get install libboost-all-dev
+   23  sudo apt install python3.9
+   33  sudo apt install build-essential
+   35  sudo apt-get install libgsl-dev
+   65  sudo apt get cmake
+   66  sudo apt install cmake
+   95  sudo apt install vim
+  126  sudo apt install meson
+  222  sudo apt install pip
